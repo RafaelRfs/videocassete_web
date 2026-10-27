@@ -1,0 +1,362 @@
+{
+ "extName": {
+  "message": "Videocassete Web"
+ },
+ "extDesc": {
+  "message": "Detecta streams HLS/DASH e vídeos da aba e baixa em paralelo num processo local, juntando em MP4."
+ },
+ "checking": {
+  "message": "verificando…"
+ },
+ "hostMissingTitle": {
+  "message": "O processo local não está instalado."
+ },
+ "hostMissingBody": {
+  "message": "Na pasta que você baixou, rode o instalador:"
+ },
+ "hostMissingWin": {
+  "message": "Windows: dois cliques em install.cmd"
+ },
+ "hostMissingPosix": {
+  "message": "macOS / Linux: ./install.sh no terminal"
+ },
+ "hostMissingAfter": {
+  "message": "Depois feche e abra este popup de novo."
+ },
+ "permTitle": {
+  "message": "Falta o acesso aos sites."
+ },
+ "permBody": {
+  "message": "Sem ele a extensão não enxerga os vídeos das páginas."
+ },
+ "permButton": {
+  "message": "Permitir acesso a todos os sites"
+ },
+ "inThisTab": {
+  "message": "Nesta aba"
+ },
+ "noStreams": {
+  "message": "Nenhum stream detectado ainda. Dê play no vídeo; se ele já estava tocando, recarregue a página (F5) com o vídeo aberto. Ou use a gravação pela página, abaixo."
+ },
+ "recTag": {
+  "message": "GRAVAR"
+ },
+ "recName": {
+  "message": "Gravar o vídeo pela página"
+ },
+ "recDesc": {
+  "message": "Funciona com qualquer vídeo que toca aqui. Grava enquanto o vídeo roda e salva no disco a cada segundo; fechar a aba não perde o que já foi gravado."
+ },
+ "recRateTitle": {
+  "message": "Velocidade da gravação"
+ },
+ "rate1": {
+  "message": "1x · tempo real, cópia fiel"
+ },
+ "rate15": {
+  "message": "1,5x · ffmpeg devolve a duração"
+ },
+ "rate2": {
+  "message": "2x · ffmpeg devolve a duração"
+ },
+ "rate4": {
+  "message": "4x · pode perder quadros e áudio"
+ },
+ "fromStart": {
+  "message": "do início"
+ },
+ "record": {
+  "message": "Gravar"
+ },
+ "pageVideos": {
+  "message": "Vídeos na página"
+ },
+ "refreshTitle": {
+  "message": "Role o feed para carregar mais vídeos e atualize"
+ },
+ "refresh": {
+  "message": "↻ Atualizar"
+ },
+ "downloads": {
+  "message": "Downloads"
+ },
+ "noJobs": {
+  "message": "Nenhum download ainda."
+ },
+ "settingsSummary": {
+  "message": "Configurações e link manual"
+ },
+ "defQuality": {
+  "message": "Qualidade padrão"
+ },
+ "qBest": {
+  "message": "Melhor"
+ },
+ "q1080": {
+  "message": "Até 1080p"
+ },
+ "q720": {
+  "message": "Até 720p"
+ },
+ "q480": {
+  "message": "Até 480p"
+ },
+ "qWorst": {
+  "message": "Menor"
+ },
+ "threads": {
+  "message": "Conexões paralelas"
+ },
+ "outDir": {
+  "message": "Pasta de destino"
+ },
+ "outDirPlaceholder": {
+  "message": "Downloads do usuário"
+ },
+ "manualLabel": {
+  "message": "Baixar um link (.m3u8, .mpd ou vídeo)"
+ },
+ "download": {
+  "message": "Baixar"
+ },
+ "st_queued": {
+  "message": "Na fila"
+ },
+ "st_starting": {
+  "message": "Iniciando"
+ },
+ "st_analyzing": {
+  "message": "Lendo o manifesto"
+ },
+ "st_downloading": {
+  "message": "Baixando"
+ },
+ "st_merging": {
+  "message": "Juntando em MP4"
+ },
+ "st_done": {
+  "message": "Pronto"
+ },
+ "st_error": {
+  "message": "Erro"
+ },
+ "st_cancelled": {
+  "message": "Cancelado"
+ },
+ "st_interrupted": {
+  "message": "Interrompido"
+ },
+ "st_recording": {
+  "message": "⏺ Gravando"
+ },
+ "noResponse": {
+  "message": "o processo local não respondeu"
+ },
+ "openYoutubeVideo": {
+  "message": "Abra um vídeo do YouTube para baixar."
+ },
+ "youtubeVideo": {
+  "message": "Vídeo do YouTube"
+ },
+ "analyzing": {
+  "message": "analisando…"
+ },
+ "recordAlternative": {
+  "message": "Alternativa: gravar pela página."
+ },
+ "recordFromPage": {
+  "message": "⏺ Gravar pela página"
+ },
+ "recordingOk": {
+  "message": "Gravando ✓"
+ },
+ "sending": {
+  "message": "Enviando…"
+ },
+ "sent": {
+  "message": "Enviado ✓"
+ },
+ "qualityOne": {
+  "message": "1 qualidade"
+ },
+ "qualityMany": {
+  "message": "{0} qualidades"
+ },
+ "auto": {
+  "message": "Automático ({0})"
+ },
+ "audioOnlyMp3": {
+  "message": "🎵 Só áudio (MP3)"
+ },
+ "singleFile": {
+  "message": "Arquivo único"
+ },
+ "singleQuality": {
+  "message": "Única qualidade"
+ },
+ "extUpdated": {
+  "message": "A extensão foi atualizada e estava com o código antigo em segundo plano. Recarregando agora: abra o popup de novo e clique em Gravar."
+ },
+ "noExtResponse": {
+  "message": "sem resposta da extensão"
+ },
+ "playing": {
+  "message": "▶ tocando"
+ },
+ "visible": {
+  "message": "visível"
+ },
+ "directFile": {
+  "message": "arquivo direto"
+ },
+ "noPostLink": {
+  "message": "sem link do post"
+ },
+ "format": {
+  "message": "Formato"
+ },
+ "video": {
+  "message": "Vídeo"
+ },
+ "mp3": {
+  "message": "🎵 MP3"
+ },
+ "showOnPage": {
+  "message": "Mostrar este vídeo na página"
+ },
+ "noPostLinkUseRecord": {
+  "message": "Sem link do post: use Gravar"
+ },
+ "sentToDownloads": {
+  "message": "Enviado para Downloads ✓"
+ },
+ "recordBtn": {
+  "message": "⏺ Gravar"
+ },
+ "recordBtnTitle": {
+  "message": "Gravar este vídeo pela página (usa a velocidade escolhida no card de gravação)"
+ },
+ "recordingFollow": {
+  "message": "Gravando ✓ (acompanhe em Downloads)"
+ },
+ "videoN": {
+  "message": "Vídeo {0}"
+ },
+ "qName_best": {
+  "message": "melhor"
+ },
+ "qName_worst": {
+  "message": "menor"
+ },
+ "qName_upTo": {
+  "message": "até {0}p"
+ },
+ "convertingMp3": {
+  "message": "Convertendo para MP3"
+ },
+ "audioLower": {
+  "message": "áudio"
+ },
+ "videoLower": {
+  "message": "vídeo"
+ },
+ "segments": {
+  "message": "{0}/{1} segmentos"
+ },
+ "stopSave": {
+  "message": "Parar e salvar"
+ },
+ "cancel": {
+  "message": "Cancelar"
+ },
+ "saveRecorded": {
+  "message": "Salvar o que foi gravado"
+ },
+ "resume": {
+  "message": "Retomar"
+ },
+ "openFolder": {
+  "message": "Abrir pasta"
+ },
+ "remove": {
+  "message": "Remover"
+ },
+ "analyzingBtn": {
+  "message": "Analisando…"
+ },
+ "ready": {
+  "message": "pronto"
+ },
+ "readyMissing": {
+  "message": "pronto · sem {0}"
+ },
+ "noFfmpeg": {
+  "message": "Sem ffmpeg: HLS criptografado não baixa e vídeo/áudio ficam separados ({0})"
+ },
+ "noYtdlp": {
+  "message": "Sem yt-dlp: YouTube e redes sociais não baixam ({0})"
+ },
+ "noDeno": {
+  "message": "Sem Deno: o YouTube pode falhar ({0})"
+ },
+ "hostAbsent": {
+  "message": "processo local ausente"
+ },
+ "recAlready": {
+  "message": "já existe uma gravação nesta aba"
+ },
+ "recNoVideo": {
+  "message": "nenhum vídeo encontrado nesta página. Dê play no vídeo e tente de novo."
+ },
+ "recNoRecorder": {
+  "message": "este navegador não tem gravador de vídeo (MediaRecorder)"
+ },
+ "hostClosed": {
+  "message": "o processo local fechou"
+ },
+ "recNotActive": {
+  "message": "essa gravação não está mais ativa neste navegador"
+ },
+ "reasonCancelled": {
+  "message": "cancelado"
+ },
+ "reasonUserStop": {
+  "message": "parado pelo usuário"
+ },
+ "reasonTabClosed": {
+  "message": "aba fechada ou recarregada: salvo o que foi gravado"
+ },
+ "recNoVideoHere": {
+  "message": "nenhum vídeo nesta página"
+ },
+ "waitAd": {
+  "message": "esperando o anúncio acabar"
+ },
+ "playBlocked": {
+  "message": "o navegador não deixou dar play no vídeo: {0}"
+ },
+ "captureEmpty": {
+  "message": "a captura não recebeu imagem nem som do vídeo"
+ },
+ "recorderError": {
+  "message": "erro do gravador: {0}"
+ },
+ "unknownErr": {
+  "message": "desconhecido"
+ },
+ "adPaused": {
+  "message": "anúncio: gravação pausada"
+ },
+ "videoPaused": {
+  "message": "vídeo pausado: gravação pausada"
+ },
+ "endOfVideo": {
+  "message": "fim do vídeo"
+ },
+ "chosenDuration": {
+  "message": "duração escolhida"
+ },
+ "drmBlack": {
+  "message": "o vídeo desta página usa DRM (EME) e o navegador entrega a imagem preta para gravação; a gravação foi descartada para não salvar um arquivo preto"
+ }
+}

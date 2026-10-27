@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Videocassete Web</title>
+<link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <h1>Videocassete Web</h1>
+    <span id="hostStatus" class="pill" data-i18n="checking"></span>
+  </header>
+
+  <div id="permMissing" class="notice" hidden>
+    <strong data-i18n="permTitle"></strong>
+    <span data-i18n="permBody"></span>
+    <div><button id="permGrant" class="primary" data-i18n="permButton"></button></div>
+  </div>
+
+  <div id="hostMissing" class="notice" hidden>
+    <strong data-i18n="hostMissingTitle"></strong>
+    <span data-i18n="hostMissingBody"></span>
+    <pre><span data-i18n="hostMissingWin"></span>
+<span data-i18n="hostMissingPosix"></span></pre>
+    <span data-i18n="hostMissingAfter"></span>
+    <div id="hostError" class="muted small"></div>
+  </div>
+
+  <section>
+    <h2 data-i18n="inThisTab"></h2>
+    <div id="streams"></div>
+    <p id="noStreams" class="muted" data-i18n="noStreams" hidden></p>
+    <div id="recBox" class="card rec" hidden>
+      <div class="top">
+        <span class="tag alt" data-i18n="recTag"></span>
+        <span class="name" data-i18n="recName"></span>
+      </div>
+      <div class="meta wrap" data-i18n="recDesc"></div>
+      <div class="actions">
+        <select id="recRate" data-i18n-title="recRateTitle">
+          <option value="1" data-i18n="rate1"></option>
+          <option value="1.5" data-i18n="rate15"></option>
+          <option value="2" data-i18n="rate2"></option>
+          <option value="4" data-i18n="rate4"></option>
+        </select>
+        <label class="check"><input type="checkbox" id="recFromStart" checked> <span data-i18n="fromStart"></span></label>
+        <button id="recGo" class="primary" data-i18n="record"></button>
+      </div>
+      <div id="recError" class="err" hidden></div>
+    </div>
+  </section>
+
+  <section id="pageVideosSection" hidden>
+    <h2 class="row-title">
+      <span><span data-i18n="pageVideos"></span> <span id="pageVideosCount" class="muted"></span></span>
+      <button id="pageVideosRefresh" class="small-btn" data-i18n="refresh" data-i18n-title="refreshTitle"></button>
+    </h2>
+    <div id="pageVideos"></div>
+  </section>
+
+  <section>
+    <h2 data-i18n="downloads"></h2>
+    <div id="jobs"></div>
+    <p id="noJobs" class="muted" data-i18n="noJobs" hidden></p>
+  </section>
+
+  <details>
+    <summary data-i18n="settingsSummary"></summary>
+    <div class="settings">
+      <label><span data-i18n="defQuality"></span>
+        <select id="defQuality">
+          <option value="best" data-i18n="qBest"></option>
+          <option value="1080" data-i18n="q1080"></option>
+          <option value="720" data-i18n="q720"></option>
+          <option value="480" data-i18n="q480"></option>
+          <option value="worst" data-i18n="qWorst"></option>
+        </select>
+      </label>
+      <label><span data-i18n="threads"></span>
+        <input type="number" id="threads" min="1" max="32">
+      </label>
+      <label class="wide"><span data-i18n="outDir"></span>
+        <input type="text" id="outDir" data-i18n-placeholder="outDirPlaceholder">
+      </label>
+      <label class="wide"><span data-i18n="manualLabel"></span>
+        <span class="row">
+          <input type="text" id="manualUrl" placeholder="https://…/master.m3u8">
+          <button id="manualGo" class="primary" data-i18n="download"></button>
+        </span>
+        <span id="manualError" class="err" hidden></span>
+      </label>
+    </div>
+  </details>
+
+  <script src="popup.js"></script>
+</body>
+</html>

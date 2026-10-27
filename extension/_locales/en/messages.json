@@ -1,0 +1,362 @@
+{
+ "extName": {
+  "message": "Videocassete Web"
+ },
+ "extDesc": {
+  "message": "Detects HLS/DASH streams and videos in the tab and downloads them in parallel in a local process, merging into MP4."
+ },
+ "checking": {
+  "message": "checking…"
+ },
+ "hostMissingTitle": {
+  "message": "The local helper is not installed."
+ },
+ "hostMissingBody": {
+  "message": "In the folder you downloaded, run the installer:"
+ },
+ "hostMissingWin": {
+  "message": "Windows: double-click install.cmd"
+ },
+ "hostMissingPosix": {
+  "message": "macOS / Linux: ./install.sh in a terminal"
+ },
+ "hostMissingAfter": {
+  "message": "Then close and reopen this popup."
+ },
+ "permTitle": {
+  "message": "Site access is missing."
+ },
+ "permBody": {
+  "message": "Without it the extension cannot see the videos on the pages."
+ },
+ "permButton": {
+  "message": "Allow access to all sites"
+ },
+ "inThisTab": {
+  "message": "In this tab"
+ },
+ "noStreams": {
+  "message": "No stream detected yet. Press play; if the video was already playing, reload the page (F5) with it open. Or record from the page, below."
+ },
+ "recTag": {
+  "message": "RECORD"
+ },
+ "recName": {
+  "message": "Record the video from the page"
+ },
+ "recDesc": {
+  "message": "Works with any video that plays here. Records while the video plays and saves to disk every second; closing the tab keeps what was already recorded."
+ },
+ "recRateTitle": {
+  "message": "Recording speed"
+ },
+ "rate1": {
+  "message": "1x · real time, exact copy"
+ },
+ "rate15": {
+  "message": "1.5x · ffmpeg restores the duration"
+ },
+ "rate2": {
+  "message": "2x · ffmpeg restores the duration"
+ },
+ "rate4": {
+  "message": "4x · may drop frames and audio"
+ },
+ "fromStart": {
+  "message": "from the start"
+ },
+ "record": {
+  "message": "Record"
+ },
+ "pageVideos": {
+  "message": "Videos on the page"
+ },
+ "refreshTitle": {
+  "message": "Scroll the feed to load more videos and refresh"
+ },
+ "refresh": {
+  "message": "↻ Refresh"
+ },
+ "downloads": {
+  "message": "Downloads"
+ },
+ "noJobs": {
+  "message": "No downloads yet."
+ },
+ "settingsSummary": {
+  "message": "Settings and manual link"
+ },
+ "defQuality": {
+  "message": "Default quality"
+ },
+ "qBest": {
+  "message": "Best"
+ },
+ "q1080": {
+  "message": "Up to 1080p"
+ },
+ "q720": {
+  "message": "Up to 720p"
+ },
+ "q480": {
+  "message": "Up to 480p"
+ },
+ "qWorst": {
+  "message": "Lowest"
+ },
+ "threads": {
+  "message": "Parallel connections"
+ },
+ "outDir": {
+  "message": "Destination folder"
+ },
+ "outDirPlaceholder": {
+  "message": "User Downloads folder"
+ },
+ "manualLabel": {
+  "message": "Download a link (.m3u8, .mpd or video)"
+ },
+ "download": {
+  "message": "Download"
+ },
+ "st_queued": {
+  "message": "Queued"
+ },
+ "st_starting": {
+  "message": "Starting"
+ },
+ "st_analyzing": {
+  "message": "Reading the manifest"
+ },
+ "st_downloading": {
+  "message": "Downloading"
+ },
+ "st_merging": {
+  "message": "Merging into MP4"
+ },
+ "st_done": {
+  "message": "Done"
+ },
+ "st_error": {
+  "message": "Error"
+ },
+ "st_cancelled": {
+  "message": "Cancelled"
+ },
+ "st_interrupted": {
+  "message": "Interrupted"
+ },
+ "st_recording": {
+  "message": "⏺ Recording"
+ },
+ "noResponse": {
+  "message": "the local helper did not respond"
+ },
+ "openYoutubeVideo": {
+  "message": "Open a YouTube video to download it."
+ },
+ "youtubeVideo": {
+  "message": "YouTube video"
+ },
+ "analyzing": {
+  "message": "analyzing…"
+ },
+ "recordAlternative": {
+  "message": "Alternative: record from the page."
+ },
+ "recordFromPage": {
+  "message": "⏺ Record from the page"
+ },
+ "recordingOk": {
+  "message": "Recording ✓"
+ },
+ "sending": {
+  "message": "Sending…"
+ },
+ "sent": {
+  "message": "Sent ✓"
+ },
+ "qualityOne": {
+  "message": "1 quality"
+ },
+ "qualityMany": {
+  "message": "{0} qualities"
+ },
+ "auto": {
+  "message": "Automatic ({0})"
+ },
+ "audioOnlyMp3": {
+  "message": "🎵 Audio only (MP3)"
+ },
+ "singleFile": {
+  "message": "Single file"
+ },
+ "singleQuality": {
+  "message": "Single quality"
+ },
+ "extUpdated": {
+  "message": "The extension was updated and its background code was outdated. Reloading now: open the popup again and click Record."
+ },
+ "noExtResponse": {
+  "message": "no response from the extension"
+ },
+ "playing": {
+  "message": "▶ playing"
+ },
+ "visible": {
+  "message": "visible"
+ },
+ "directFile": {
+  "message": "direct file"
+ },
+ "noPostLink": {
+  "message": "no post link"
+ },
+ "format": {
+  "message": "Format"
+ },
+ "video": {
+  "message": "Video"
+ },
+ "mp3": {
+  "message": "🎵 MP3"
+ },
+ "showOnPage": {
+  "message": "Show this video on the page"
+ },
+ "noPostLinkUseRecord": {
+  "message": "No post link: use Record"
+ },
+ "sentToDownloads": {
+  "message": "Sent to Downloads ✓"
+ },
+ "recordBtn": {
+  "message": "⏺ Record"
+ },
+ "recordBtnTitle": {
+  "message": "Record this video from the page (uses the speed chosen in the recording card)"
+ },
+ "recordingFollow": {
+  "message": "Recording ✓ (follow it in Downloads)"
+ },
+ "videoN": {
+  "message": "Video {0}"
+ },
+ "qName_best": {
+  "message": "best"
+ },
+ "qName_worst": {
+  "message": "lowest"
+ },
+ "qName_upTo": {
+  "message": "up to {0}p"
+ },
+ "convertingMp3": {
+  "message": "Converting to MP3"
+ },
+ "audioLower": {
+  "message": "audio"
+ },
+ "videoLower": {
+  "message": "video"
+ },
+ "segments": {
+  "message": "{0}/{1} segments"
+ },
+ "stopSave": {
+  "message": "Stop and save"
+ },
+ "cancel": {
+  "message": "Cancel"
+ },
+ "saveRecorded": {
+  "message": "Save what was recorded"
+ },
+ "resume": {
+  "message": "Resume"
+ },
+ "openFolder": {
+  "message": "Open folder"
+ },
+ "remove": {
+  "message": "Remove"
+ },
+ "analyzingBtn": {
+  "message": "Analyzing…"
+ },
+ "ready": {
+  "message": "ready"
+ },
+ "readyMissing": {
+  "message": "ready · missing {0}"
+ },
+ "noFfmpeg": {
+  "message": "No ffmpeg: encrypted HLS will not download and video/audio stay separate ({0})"
+ },
+ "noYtdlp": {
+  "message": "No yt-dlp: YouTube and social networks will not download ({0})"
+ },
+ "noDeno": {
+  "message": "No Deno: YouTube may fail ({0})"
+ },
+ "hostAbsent": {
+  "message": "local helper missing"
+ },
+ "recAlready": {
+  "message": "a recording is already running in this tab"
+ },
+ "recNoVideo": {
+  "message": "no video found on this page. Press play and try again."
+ },
+ "recNoRecorder": {
+  "message": "this browser has no video recorder (MediaRecorder)"
+ },
+ "hostClosed": {
+  "message": "the local helper closed"
+ },
+ "recNotActive": {
+  "message": "this recording is no longer active in this browser"
+ },
+ "reasonCancelled": {
+  "message": "cancelled"
+ },
+ "reasonUserStop": {
+  "message": "stopped by the user"
+ },
+ "reasonTabClosed": {
+  "message": "tab closed or reloaded: saved what was recorded"
+ },
+ "recNoVideoHere": {
+  "message": "no video on this page"
+ },
+ "waitAd": {
+  "message": "waiting for the ad to end"
+ },
+ "playBlocked": {
+  "message": "the browser did not allow playing the video: {0}"
+ },
+ "captureEmpty": {
+  "message": "the capture got no picture or sound from the video"
+ },
+ "recorderError": {
+  "message": "recorder error: {0}"
+ },
+ "unknownErr": {
+  "message": "unknown"
+ },
+ "adPaused": {
+  "message": "ad: recording paused"
+ },
+ "videoPaused": {
+  "message": "video paused: recording paused"
+ },
+ "endOfVideo": {
+  "message": "end of video"
+ },
+ "chosenDuration": {
+  "message": "chosen duration"
+ },
+ "drmBlack": {
+  "message": "this page's video uses DRM (EME) and the browser hands a black picture to recording; the recording was discarded so a black file is not saved"
+ }
+}
