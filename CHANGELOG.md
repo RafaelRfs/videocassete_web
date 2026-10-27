@@ -20,5 +20,5 @@ First public release.
 | Where | What |
 |---|---|
 | Windows 11, Python 3.13 | installer, test suite, Chrome/Edge/Firefox/Opera registration |
-| CI (GitHub Actions) | test suite and installer on windows/macos/ubuntu, Python 3.9 and 3.13 |
+| CI (GitHub Actions) | Python unit tests on windows/macos/ubuntu (3.13, plus 3.9 on ubuntu) and JavaScript unit tests (Node 22) |
 | Not yet validated by hand | browsers on macOS and Linux |

@@ -213,7 +213,7 @@ host/stream_worker.py independent process: reads the manifest, downloads in para
 | `host/platform_paths.py` | what changes between Windows, macOS and Linux |
 | `host/i18n.py` | helper messages in English and Portuguese |
 | `install.py` | installer (dependencies, copy, launcher, browser registration, self-test) |
-| `tests/` | `python -m unittest discover -s tests` (real HLS/DASH/AES-128 downloads against a local server) |
+| `tests/` | Python: `python -m unittest discover -s tests` (with ffmpeg installed it also runs real HLS/DASH/AES-128 downloads against a local server). JavaScript: `node --test tests/js/extension.test.mjs` (Node 22+, no dependencies) |
 | `tools/build_release.py` | builds the release zips in `dist/` |
 
 Data folder (`<data>`):

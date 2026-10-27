@@ -216,7 +216,7 @@ host/stream_worker.py processo independente: lê o manifesto, baixa em paralelo,
 | `host/platform_paths.py` | o que muda entre Windows, macOS e Linux |
 | `host/i18n.py` | mensagens do processo local em português e inglês |
 | `install.py` | instalador (dependências, cópia, launcher, registro nos navegadores, autoteste) |
-| `tests/` | `python -m unittest discover -s tests` (downloads HLS/DASH/AES-128 reais contra um servidor local) |
+| `tests/` | Python: `python -m unittest discover -s tests` (com o ffmpeg instalado, também faz downloads HLS/DASH/AES-128 reais contra um servidor local). JavaScript: `node --test tests/js/extension.test.mjs` (Node 22+, sem dependências) |
 | `tools/build_release.py` | gera os zips da versão em `dist/` |
 
 Pasta de dados (`<dados>`):
